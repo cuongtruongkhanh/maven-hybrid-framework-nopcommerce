@@ -1,0 +1,27 @@
+{
+	"firstName": "Cuong Truong",
+	"lastName": "Truong",
+	"emailAddress": "khanhcuong",
+	"password": "123456",
+	"date": "25",
+	"month": "August",
+	"year": "2000",
+	"companyName": "LG Electronics",
+	
+	"login":{
+		"username":"khanhcuong",
+		"password":"123456"
+	},
+	
+	"subjects":[
+		{
+			"name":"Math",
+			"point":"10.0"
+		},
+		{
+			"name":"Physic",
+			"point":"8.5"
+		}
+	]
+	
+}

@@ -1,0 +1,26 @@
+[INFO ] [2022-12-12 18:42:38,290] Register - Step 01: Navigate to Register page
+[INFO ] [2022-12-12 18:42:39,090] Register - Step 02: click to Radio button
+[INFO ] [2022-12-12 18:42:39,281] Register - Step 03: Enter to Firstname textbox with value is Cuong Truong
+[INFO ] [2022-12-12 18:42:39,567] Register - Step 04: Enter to Lastname textbox with value is Truong
+[INFO ] [2022-12-12 18:42:39,787] Register - Step 05: Select DateOfBirthDay, DateOfBirthMonth, DateOfBirthYear
+[INFO ] [2022-12-12 18:42:40,377] Register - Step 06: Enter to Email Adrress textbox with value is khanhcuong3565@gmail.com
+[INFO ] [2022-12-12 18:42:40,668] Register - Step 07: Click to Checkbox Newsletter
+[INFO ] [2022-12-12 18:42:40,782] Register - Step 08: Enter to Company textbox with value is LG Electronics
+[INFO ] [2022-12-12 18:42:41,064] Register - Step 09: Enter to Password textbox with value is 123456
+[INFO ] [2022-12-12 18:42:41,278] Register - Step 10: Enter to ConfirmPassword textbox with value is 123456
+[INFO ] [2022-12-12 18:42:41,501] Register - Step 11: Click to Register button
+[INFO ] [2022-12-12 18:42:42,424] Register - Step 12: Verify Register Success Message is displayed
+[INFO ] [2022-12-12 18:42:42,740] Login - Step 01: Navigate to Login page
+[INFO ] [2022-12-12 18:42:44,174] Login - Step 02: Enter to email textbox with value is khanhcuong3565@gmail.com
+[INFO ] [2022-12-12 18:42:44,423] Login - Step 03: Enter to password textbox with value is 123456
+[INFO ] [2022-12-12 18:42:44,604] Login - Step 04: Click to login button
+[INFO ] [2022-12-12 18:42:45,358] Login - Step 05: Verify My Account Link is displayed
+[INFO ] [2022-12-12 18:42:45,457]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-12 18:42:45,465] MyAccount - Step 01: Navigate to My Account Page
+[INFO ] [2022-12-12 18:42:46,055] MyAccount - Step 02: Verify Customer Info page is displayed
+[INFO ] [2022-12-12 18:42:46,153]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-12 18:42:46,154] MyAccount - Step 03: Verify First Name value is correct
+[INFO ] [2022-12-12 18:42:46,212] MyAccount - Step 04: Verify Last Name value is correct
+[INFO ] [2022-12-12 18:42:46,292] MyAccount - Step 05: Verify Email value is correct
+[INFO ] [2022-12-12 18:42:46,371] OS name = windows 10
+[INFO ] [2022-12-12 18:42:46,372] Driver instance name = chromedriver: chrome on windows (1835ae7e411de07a286bf78cb4881ade)

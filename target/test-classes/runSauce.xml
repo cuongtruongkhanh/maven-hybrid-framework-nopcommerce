@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sauce - User">
+
+	<listeners>
+		<listener class-name="commons.MethodListener"></listener>
+	</listeners>
+
+<parameter name="appUrl" value="https://www.saucedemo.com/"></parameter>
+  <test name="Run on Chrome">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.saurcelab.sort.Level_19_Sort_Asc_Desc"/>
+    </classes>
+  </test>
+
+</suite>

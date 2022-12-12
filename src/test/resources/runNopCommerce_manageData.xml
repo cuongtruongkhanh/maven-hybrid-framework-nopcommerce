@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="NopCommerce - User">
+
+	<listeners>
+		<listener class-name="commons.MethodListener"></listener>
+		<!-- <listener class-name="reportConfig.ReportNGListener"></listener> -->
+		<!-- <listener class-name="reportConfig.ExtentTestListener"></listener> -->
+		<!-- <listener class-name="reportConfig.AllureTestListener"></listener> -->
+		<!-- <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>-->
+		<!-- <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>-->
+	</listeners>
+	
+	<parameter name="firstname" value="Cuong"></parameter>
+	<parameter name="lastName" value="Truong"></parameter>
+	<parameter name="emailAdress" value="automationfc"></parameter>
+	<parameter name="password" value="123456"></parameter>
+	<parameter name="date" value="25"></parameter>
+	<parameter name="month" value="August"></parameter>
+	<parameter name="year" value="1998"></parameter>
+	<parameter name="companyName" value="LG Electronics"></parameter>
+	
+  <test name="Run on Chrome">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.nopcommerce.user.Level_20_Manage_Data_By_xml"/>
+    </classes>
+  </test>
+
+</suite>

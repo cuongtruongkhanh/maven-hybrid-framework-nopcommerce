@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [NopCommerce - User]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="commons.MethodListener"/>
+    <listener class-name="reportConfig.AllureTestListener"/>
+  </listeners>
+  <test thread-count="3" name="Run on Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.nopcommerce.user.Level_20_Manage_Data_By_Json">
+        <methods>
+          <include name="User_02_Login"/>
+          <include name="beforeClass"/>
+          <include name="User_03_My_Account"/>
+          <include name="User_01_Register"/>
+          <include name="copyFileEnvironmentAfterExecute"/>
+          <include name="initBeforeSuite"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.nopcommerce.user.Level_20_Manage_Data_By_Json -->
+    </classes>
+  </test> <!-- Run on Firefox(failed) -->
+</suite> <!-- Failed suite [NopCommerce - User] -->
