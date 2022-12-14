@@ -10,13 +10,13 @@
 		<!-- <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>-->
 		<!-- <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>-->
 	</listeners>
-	
+    <parameter name="environment" value="testing"></parameter>
+
   <test name="Run on Chrome">
   <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.nopcommerce.user.Level_20_Manage_Data_By_Json"/>
+      <class name="com.nopcommerce.user.Level_21_Multiple_Environment_ParameterTestNG"/>
     </classes>
   </test>
-	
 
 </suite>
