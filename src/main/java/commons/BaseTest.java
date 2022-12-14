@@ -175,7 +175,7 @@ public class BaseTest {
 		}
 		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-		driver.get(getEnvironmentUrl(environmentName));
+		driver.get(environmentName);
 		return driver;
 	}
 
